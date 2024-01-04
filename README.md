@@ -16,7 +16,12 @@ comment line 3
 comment line n
 COMMENT
 ````
-
+### Alias
+This command allows us to create custom bash commands, where to use it in permanent way, we should write it on the shell profile file.  <br />
+**Example:**  <br />
+`alias conn="echo 'Total connections on port 80 and 443:' ; netstat -plant | grep '80\|443' | grep -v LISTEN | wc -l"`
+Where the output is:  <br />
+`Total connections on port 80 and 443: 12`
 ### Create variables
 It is important **you can not have spaces after and before the '=' sign**.
 ````name="Anna"````  <br />
@@ -147,3 +152,4 @@ do
     your_commands
 done
 ````
+
