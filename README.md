@@ -55,6 +55,18 @@ Should print all values.  <br />
 **Note:** For arrays you should use curly brackets ({}).  <br />
 
 ## Structures
+### Functions
+Functions in programming, allow us to reuse lines of code and/or segment our application.  <br />
+To create a function in bash, we use this structure:  <br />
+````
+function function_name() {
+    your_commands
+}
+````
+We also can omit `function` key word.  <br />
+To send parameters, we just reference it.  <br />
+**Example:**
+
 ### Conditionals
 #### If Else
 ````
