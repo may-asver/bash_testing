@@ -66,7 +66,15 @@ function function_name() {
 We also can omit `function` key word.  <br />
 To send parameters, we just reference it.  <br />
 **Example:**
-
+````
+server_name=$(hostname)
+function memory_check() {
+    echo ""
+    echo "Memory usage on ${server_name} is: "
+    free -h
+    echo ""
+}
+````
 ### Conditionals
 #### If Else
 ````
